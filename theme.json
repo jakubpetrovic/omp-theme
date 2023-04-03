@@ -33,19 +33,19 @@
         {
           "foreground": "#fffb00",
           "style": "plain",
-          "template": " > Context: {{.Context}}",
+          "template": " \u276f\u276f Context: {{.Context}}",
           "type": "kubectl"
         },
         {
           "foreground": "#ff9100",
           "style": "plain",
-          "template": " > Namespace: {{.Namespace}}",
+          "template": " \u276f\u276f Namespace: {{.Namespace}}",
           "type": "kubectl"
         },
         {
           "foreground": "#9ec3f0",
           "style": "plain",
-          "template": " > Az: {{ .Name }}",
+          "template": " \u276f\u276f Az: {{ .Name }}",
           "type": "az"
         },
         {
@@ -54,7 +54,7 @@
             "time_format": "15:04"
           },
           "style": "plain",
-          "template": " > {{ .CurrentDate | date .Format }}",
+          "template": " \u276f\u276f {{ .CurrentDate | date .Format }}",
           "type": "time"
         }
       ],
